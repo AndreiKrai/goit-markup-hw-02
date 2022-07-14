@@ -41,6 +41,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.header-navi .link.current {
+  color: var(--accent-color);
+}
 .header-auth .link {
   color: inherit;
 }
@@ -76,6 +79,7 @@ body {
   color: #ffffff;
   background-color: var(--accent-color);
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -137,6 +141,7 @@ address {
   color: var(--secondary-txt-color);
   border-style: none;
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
